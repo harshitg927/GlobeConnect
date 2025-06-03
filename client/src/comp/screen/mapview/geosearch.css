@@ -1,0 +1,37 @@
+.leaflet-control-geosearch form {
+  background-color: #2a2a2a; /* Dark background */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 100%;
+}
+
+.leaflet-control-geosearch input {
+  background-color: #333; /* Slightly lighter dark */
+  color: #fff; /* White text */
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.leaflet-control-geosearch .results {
+  background-color: #222; /* Darker result background */
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.leaflet-control-geosearch .results > * {
+  padding: 10px;
+  border-bottom: 1px solid #444; /* Adjusted border */
+  cursor: pointer;
+}
+
+.leaflet-control-geosearch .results > *:hover {
+  background-color: #555; /* Slightly lighter on hover */
+}
+
+.leaflet-control-geosearch .search-button,
+.leaflet-control-geosearch .search-icon,
+.leaflet-control-geosearch .reset {
+  color: #ccc; /* Lighter gray icons */
+}
